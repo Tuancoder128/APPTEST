@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4c7c7"
+    android:orientation="vertical"
+    tools:context="com.example.vst.apptest.MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/avata" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập vào email..." />
+
+    <EditText
+        android:id="@+id/matkhau_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập vào mật khẩu... "
+        android:inputType="textPassword" />
+
+    <EditText
+
+        android:id="@+id/nhap_lai_mk_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu... "
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/dangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Đăng ký " />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Lưu thông tin đăng ký !"
+            android:textColor="#1426e7" />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp">
+        <RadioButton
+            android:id="@+id/radio_dangky"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="đăng ký" />
+
+        <RadioButton
+            android:id="@+id/radio_dangnhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="đăng nhập " />
+    </RadioGroup>
+</LinearLayout>

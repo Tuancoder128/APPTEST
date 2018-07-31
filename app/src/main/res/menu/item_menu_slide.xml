@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dangky"
+        android:title="Đăng ký"
+        android:icon="@drawable/ic_build_black_24dp"
+
+        />
+    <item
+        android:id="@+id/taosanpham"
+        android:title="Tạo sản phẩm"
+        android:icon="@drawable/ic_android_black_24dp"
+
+        />
+    <item
+        android:id="@+id/danhsach_sanpham"
+        android:title="Danh sách sản phẩm"
+        android:icon="@drawable/ic_add_to_queue_black_24dp"
+
+        />
+    <itemvalues
+        android:id="@+id/service_broadcast_receiver"
+        android:title="Service + broadcast receiver"
+        android:icon="@drawable/ic_email_black_24dp"
+        />
+    <item
+        android:id="@+id/async_task"
+        android:title="AsyncTask"
+        android:icon="@drawable/ic_chat_black_24dp"
+        />
+    <item
+        android:id="@+id/handler"
+        android:title="Handler"
+        android:icon="@drawable/ic_headset_black_24dp"
+        />
+    <item
+        android:id="@+id/thread"
+        android:title="Thread"
+        android:icon="@drawable/ic_music_note_black_24dp"
+        />
+    <item
+        android:id="@+id/viewPager_tabLayout"
+        android:title="ViewPager + TabLayout"
+        android:icon="@drawable/ic_watch_black_24dp"
+        />
+
+</menu>

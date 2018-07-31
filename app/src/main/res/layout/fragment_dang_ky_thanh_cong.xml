@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vst.apptest.LoginActivity">
+
+    <TextView
+
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CHÚC MỪNG ! BẠN ĐÃ ĐĂNG KÝ THÀNH CÔNG "
+        android:layout_gravity="center"
+        android:textColor="#e71313"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/tv_mk_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:hint="CHÚC MỪNG ! BẠN ĐÃ ĐĂNG KÝ THÀNH CÔNG "
+        android:textColor="#69b4df"
+        android:textSize="26dp" />
+
+
+</LinearLayout>

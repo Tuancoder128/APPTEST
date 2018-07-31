@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ITSOL</string>
+    <string name="title_activity_l">LActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
